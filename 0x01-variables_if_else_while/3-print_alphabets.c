@@ -2,7 +2,7 @@
 #include <ctype.h>
 /**
  * main - program that prints the alphabet in lowercase, followed by a new line
- *Return: 0
+ *Return:always return 0
  */
 int main(void)
 {
