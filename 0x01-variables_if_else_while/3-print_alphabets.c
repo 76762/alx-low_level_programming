@@ -1,14 +1,18 @@
 #include <stdio.h>
+#include <ctype.h>
 /**
- *  main - entry point
- *
- * Return: always return 0
+ * main - program that prints the alphabet in lowercase, followed by a new line
+ *You can only use the putchar
+ *Return: 0
  */
 int main(void)
 {
-char a
-for (a = 'a'; a <= "z" ; a++)
-putchar(a);
+int l = 'a';
+while (l <= 'z')
+{
+putchar(l);
+l += 1;
+}
 putchar('\n');
 return (0);
 }
